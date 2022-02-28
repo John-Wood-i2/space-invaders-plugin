@@ -1,0 +1,12 @@
+.dark-theme {
+  --text: white;
+}
+
+.light-theme {
+  --text: black;
+}
+
+.theme {
+  color: var(--text);
+  font-family: "Press Start 2P", cursive;
+}

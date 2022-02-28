@@ -1,0 +1,23 @@
+.si_instructions {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
+  row-gap: 10px;
+  align-items: center;
+  justify-items: start;
+  padding: 10px 0;
+}
+
+.si_points {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  justify-items: center;
+  padding: 10px 0;
+}
+
+svg {
+  fill: var(--text);
+}

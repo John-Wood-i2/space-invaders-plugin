@@ -1,0 +1,11 @@
+{
+  "$schema": "https://i2group.github.io/notebook-sdk/schemas/plugin-manifest.json",
+  "name": "Imogen's Arcade",
+  "pluginId": "f7eb352a-8d41-4103-8aad-6fc7ac8e5d58",
+  "pluginVersion": "0.0.25",
+  "entryPointUrl": "./entrypoint.js",
+  "toolViewCsp": {
+    "style-src": "'unsafe-inline' fonts.googleapis.com fonts.gstatic.com",
+    "font-src": "fonts.googleapis.com fonts.gstatic.com"
+  }
+}
