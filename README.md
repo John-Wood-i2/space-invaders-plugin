@@ -1,4 +1,4 @@
-# Space Invaders Plugin
+# Arcade Plugin
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -9,10 +9,6 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
 ### `npm run build`
 
@@ -37,8 +33,9 @@ npx @i2analyze/notebook-sdk-plugin-proxy --config devproxy.json
 ```
 
 and edit devproxy.json to point at your deployment.
+Navigate to http://localhost:4000 to view the deployment with the arcade plugin
 
-## Outstanding issues
+## Outstanding issues with space invaders
 
 1. The game does not clean up after itself- so you need to select and removed the records after playing.
 1. You need to keep focus on the toolview panel whilst playing or the keyboard actions won't be picked up
@@ -46,3 +43,5 @@ and edit devproxy.json to point at your deployment.
 1. Invaders don't fire missiles
 1. Add bunkers for the laser to hide behind
 1. Add the occasional flying saucer
+1. It would be nice to add music
+1. The viewport should auto resize to the game screen
